@@ -462,8 +462,8 @@ input[type="checkbox" i] {
 }
 .frist-row img {
 	position: relative;
-	/* width: 675px;
-	top: -105px; */
+	/* width: 675px; */
+	top: -105px;
 }
 section:nth-of-type(2) {
 	padding-top: 60px;
@@ -762,7 +762,8 @@ input::placeholder {
 	font-weight: 600;
 	line-height: 2.8rem;
 	font-size: 22px;
-	color: #4d0653; /* direction: rtl; */
+	color: #4d0653;
+	/* direction: rtl; */
 }
 .s7 h4 a {
 	color: #4d0653;
@@ -4396,7 +4397,8 @@ h5 span {
 }
 .top-guid {
 	padding-right: 15px;
-	text-align: right; /* direction: rtl; */
+	text-align: right;
+	/* direction: rtl; */
 }
 .top-guid span {
 	font-size: 13px;
@@ -4667,8 +4669,7 @@ main.iner.uncollap {
 		padding: 4px 4px;
 	}
 	.client .set-sec2.khia > span {
-		padding: 4px 4px;
-		/* margin-left: 5px; */
+		padding: 4px 4px; /* margin-left: 5px; */
 		margin-top: 5px;
 	}
 	.twasol {
@@ -4947,7 +4948,8 @@ main.iner.uncollap {
 	}
 	.frist-row img {
 		position: relative;
-		width: 326px;
+		width: 100%;
+		top: 0;
 	}
 	.f-open .c-filter-con,
 	.f-open .r-filter-con,
