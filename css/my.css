@@ -4891,6 +4891,20 @@ main.iner.uncollap {
 	}
 }
 @media only screen and (max-width: 575px) {
+	.datepick.v70 .set .b-d.b-d-1 span i {
+		right: 12px;
+		font-size: 18px;
+	}
+	.datepick.v70 {
+		grid-template-columns: auto 125px;
+		width: 100%;
+	}
+	.select select.v70 {
+		padding: 8px 30px 8px 21px;
+		outline: none;
+		width: 100%;
+		margin-bottom: 15px;
+	}
 	.b-d.v55 {
 		border-radius: 5px 5px 0 0;
 		width: 100%;
@@ -4944,7 +4958,7 @@ main.iner.uncollap {
 		font-size: 14px;
 	}
 	.datepick span.icon.v1 {
-		width: 100%;
+		width: 100% !important;
 	}
 	.frist-row img {
 		position: relative;
@@ -5039,8 +5053,8 @@ main.iner.uncollap {
 		right: -256px;
 	}
 	.sec2 .talab {
-		grid-template-columns: 42px auto;
-		padding: 13px 0;
+		/* grid-template-columns: 42px auto;
+		padding: 13px 0; */
 	}
 	.req .set-sec2.khia span {
 		padding: 4px 2px;
