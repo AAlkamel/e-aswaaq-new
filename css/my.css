@@ -1676,14 +1676,14 @@ input[type=date] {
 	margin: 0;
 }
 .v99 ul li i {
-	font-size: 9px;
+	font-size: 10px;
 	background-color: #c1b6c1;
 	display: inline-block;
-	height: 13px;
-	width: 13px;
+	height: 15px;
+	width: 15px;
 	text-align: center;
-	line-height: 13px;
-	border-radius: 7px;
+	line-height: 15px;
+	border-radius: 8px;
 	color: #c1b6c1;
 }
 .v99 ul li i.fa-times {
@@ -3513,6 +3513,7 @@ textarea {
 	font-size: 12px;
 }
 #s141 input,
+#s155 input,
 #s140 input {
 	font-size: 13px;
 	color: #444444;
@@ -3526,6 +3527,7 @@ textarea {
 #s128 select.form-select,
 #s140 select.form-select,
 #s141 select.form-select,
+#s155 select.form-select,
 #s115 select.form-select {
 	color: #857688;
 	padding: 11px;
@@ -4701,6 +4703,17 @@ span.s10 {
 	color: #757575;
 	padding: 7px;
 	cursor: pointer;
+}
+.manage #s155 .conta span {
+	font-size: initial;
+	color: inherit;
+}
+.manage #s155 .conta span.btn1 {
+	color: white;
+	display: inline-block;
+	padding: 3px;
+	font-size: 13px;
+	margin: 5px 0;
 }
 /* ------------------------------------------ */
 @media only screen and (max-width: 991px) {

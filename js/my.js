@@ -1019,6 +1019,15 @@ $( document ).ready(function() {
         e.preventDefault();
         $("#s141").hide()
     });
+    //مركز المساعدة 
+    $("#btn-s155").on('click',function(e){
+        e.preventDefault();
+        $("#s155").show()
+    });
+    $("#s155-close").on('click',function(e){
+        e.preventDefault();
+        $("#s155").hide()
+    });
 
 
 //-----------------------------------------------------------------------------------
