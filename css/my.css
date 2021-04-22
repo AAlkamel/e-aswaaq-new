@@ -762,8 +762,7 @@ input::placeholder {
 	font-weight: 600;
 	line-height: 2.8rem;
 	font-size: 22px;
-	color: #4d0653;
-	/* direction: rtl; */
+	color: #4d0653; /* direction: rtl; */
 }
 .s7 h4 a {
 	color: #4d0653;
@@ -3488,6 +3487,12 @@ textarea {
 .client .sec5 .item.tsneef01:hover i {
 	color: rgb(217 156 249);
 }
+.tras.v0::after {
+	height: 125px;
+}
+.tras.v0 {
+	margin-bottom: -22px;
+}
 #s112 .tras::after,
 #s116 .tras::after,
 #s118 .tras::after,
@@ -4397,8 +4402,7 @@ h5 span {
 }
 .top-guid {
 	padding-right: 15px;
-	text-align: right;
-	/* direction: rtl; */
+	text-align: right; /* direction: rtl; */
 }
 .top-guid span {
 	font-size: 13px;
@@ -4649,6 +4653,54 @@ main.iner.uncollap {
 .pro .sec2.c-ppp3 .infor,
 .pro .sec2.c-ppp4 .infor {
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.fil {
+	border: solid 1px #ccc;
+	text-align: right;
+	padding: 4px 8px;
+	height: 115px;
+	position: relative;
+}
+.s111-grid .plus {
+	position: absolute;
+	left: 10px;
+	bottom: 10px; /* transform: translate(-50%, -50%); */
+	font-size: 25px !IMPORTANT;
+	background-color: #8b2893;
+	color: white !important;
+	line-height: 25px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	border-radius: 3px;
+	cursor: pointer;
+}
+span.s10 {
+	position: absolute;
+	display: block;
+	font-size: 12px !important;
+	right: 0;
+	top: -23px;
+}
+.sec9 .body.v2 {
+	position: relative;
+	min-height: 245px;
+	padding: 15px;
+	margin: 15px 0;
+}
+.d-flex01 {
+	display: grid;
+	grid-template-columns: auto 80px;
+}
+.btn20 {
+	width: 100%;
+	height: 39px;
+	border-radius: 3px;
+	display: inline-block;
+	border: solid 1px #d8d4ce;
+	color: #757575;
+	padding: 7px;
+	cursor: pointer;
 }
 /* ------------------------------------------ */
 @media only screen and (max-width: 991px) {
