@@ -293,7 +293,7 @@ ul li a:hover {
 	top: -16px;
 }
 .nav-logo .l-logo {
-	height: 55px;
+	height: 63px;
 	margin-top: 17px;
 }
 /* --------------------m-m end-------------- */
@@ -573,7 +573,7 @@ section:nth-of-type(2) {
 }
 /* ------------------------------price end-------------- */
 section:nth-of-type(5) {
-	background-image: url(../images/bg-03.webp);
+	background-image: url(../images/bg-003.webp);
 	background-attachment: fixed;
 	background-size: cover; /* height: 100vh; */ /* border-top: solid 1px #ae93b1; */
 }
