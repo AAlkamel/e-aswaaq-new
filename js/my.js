@@ -1295,7 +1295,7 @@ $('#mySelect2').on('select2:select', function (e) {
         y.append(was);
     });
 
-    $(".loader-wrapper").fadeOut();
+    
 });
 // ----------------------------
 // $('.datepick span.icon').on('click',function(){
@@ -1444,11 +1444,14 @@ $('.hh').change(function () {
         $('.in0100').attr("placeholder", "أدخل  كوبون الخصم");
     }
 });
+$(window).on('load',function () { 
+$(".loader-wrapper").delay( 800 ).fadeOut();
 
+});
 $(window).ready(function(){
    // $(".loader-wrapper").fadeOut();
 
-
+   
 
 
 
